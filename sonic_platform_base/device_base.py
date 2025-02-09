@@ -46,7 +46,7 @@ class DeviceBase(object):
         """
         raise NotImplementedError
 
-    def get_model(self):
+    def get_sys_display(self):
         """
         Retrieves the system display name of the device
 
