@@ -46,6 +46,15 @@ class DeviceBase(object):
         """
         raise NotImplementedError
 
+    def get_model(self):
+        """
+        Retrieves the system display name of the device
+
+        Returns:
+            string: System display name of device
+        """
+        raise NotImplementedError
+
     def get_serial(self):
         """
         Retrieves the serial number of the device
